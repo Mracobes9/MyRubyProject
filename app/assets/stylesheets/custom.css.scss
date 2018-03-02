@@ -5,6 +5,7 @@ $light_grey: #777;
 $grey: #555;
 $white: #fff;
 $light_black: #222;
+$gray-medium-light: #eaeaea;
 
 body{
     padding-top: 60px;
@@ -81,4 +82,16 @@ footer{
             margin-left: 15px;
         }
     }
+}
+@mixin box_sizing
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.debug_dump
+{
+    clear:both;
+    float: left;
+    width: 
 }
