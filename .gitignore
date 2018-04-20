@@ -21,3 +21,4 @@
 /yarn-error.log
 /spring/*.pid
 .byebug_history
+/public/uploads
